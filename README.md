@@ -4,7 +4,7 @@
 A simple Spring Boot service that fetches weather data from Visual Crossing API and caches it using Redis for improved performance.
 
 ## Technologies Used
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Web (REST API)
 - Spring Data Redis
