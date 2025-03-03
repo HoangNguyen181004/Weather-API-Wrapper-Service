@@ -19,7 +19,7 @@ git clone https://github.com/yourusername/weather-api-wrapper.git
 cd weather-api-wrapper
 ```
 
-###2. Configure the Application
+### 2. Configure the Application
 Update application.properties with your API key:
 
 ```sh
@@ -28,18 +28,18 @@ weather.api.url=https://weather.visualcrossing.com/VisualCrossingWebServices/res
 weather.cache.ttl=720 # Cache expires in minutes
 ```
 
-###3. Start Redis
+### 3. Start Redis
 Using Docker:
 ```sh
 docker run -d --name redis -p 6379:6379 redis
 ```
 
-###4. Run the Application
+### 4. Run the Application
 ```sh
 mvn spring-boot:run
 ```
 
-API Endpoints
+### API Endpoints
 Get Weather Data
 Request:
 
